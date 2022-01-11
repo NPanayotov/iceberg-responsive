@@ -1,0 +1,78 @@
+/* ------------------------------------------------------------ *\
+	Responsive styles
+\* ------------------------------------------------------------ */
+
+/*  Tablet  */
+@media (max-width: 1000px) {
+	#layout {
+		width: 100% !important;
+	}
+
+	#logo {
+		padding-left: 20px;
+	}
+
+	#icons {
+		position: relative;
+		float: right;
+		width: auto;
+		padding: 0 20px 0 75px;
+	}
+
+	#fbIco {
+		left: 0;
+		margin: 0;
+	}
+
+
+	#menuTbl {
+		width: 100%;
+	}
+
+	#bigpic {
+		width: 100%;
+	}
+
+	#bigpic > div > div,
+	#bigpic > div {
+		width: 100% !important;
+	}
+	#bigpic img {
+		object-fit: cover;
+		object-position: center center;
+	}
+
+	#content {
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.individualproduct {
+		width: 50%;
+	}
+
+	.productbutton {
+		margin: 0 auto 40px;
+	}
+
+	#footerBIG {
+		width: 100%;
+		overflow: hidden;
+	}
+
+	#footerBIG > a {
+		float: left;
+	}
+
+	#footerBIG_in {
+		width: auto;
+		height: auto;
+		overflow: hidden;
+		float: none;
+	}
+}
+
+/*  Mobile  */
+@media (max-width: 767px) {
+
+}
